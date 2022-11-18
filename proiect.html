@@ -6,22 +6,30 @@
     </head>
     <body>
         
-        <div class="navbar">
-            <a id='short' href='file:///C:/Users/gogul/OneDrive/Desktop/Multimedia/proiect.html'><img class="abc" src="images/Wash Now.png" scale="0"></a>
-            <a href="#info"><br>About us</a>
-            <div class="dropdown">
-            <button class="dropbtn" onclick="myFunction()"><br>Dropdown
-              <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content" id="myDropdown">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
-            </div>
-            </div>
-            <a href="#signup"><br>Sign-up</a>
-            <a href="#login"><br>Login</a> 
+      <div class="topnav" id="myTopnav">
+        <a id='short' href='file:///C:/Users/gogul/OneDrive/Desktop/Multimedia/proiect.html'><img class="abc" src="images/Wash Now.png" scale="0"></a>
+        <a href="#news"><br>Sign up</a>
+        <a href="#contact"><br>Login</a>
+        <a href="#about"><br>About us</a>
+        <div class="dropdown">
+          <button class="dropbtn" onclick="myFunction1()"><br>Dropdown
+            <i class="fa fa-caret-down"></i>
+          </button>
+          
+          <div class="dropdown-content" id="myDropdown">
+            <div class="dropright">
+              <button class="btn btn-light dropdown-toggle" data-toggle="dropdown">Dropright button</button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Link 1</a>
+                <a class="dropdown-item" href="#">Link 2</a>
+                <a class="dropdown-item" href="#">Link 3</a>
+              </div>
           </div>
+        </div> 
+        
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction2()">&#9776;</a>
+      </div>
+      
         <script type="text/javascript" src="proiect_script.js"></script>
     </body>
 </html>
