@@ -31,3 +31,5 @@ var loader = function () {
   }, 1);
 };
 loader();
+const audio=new Audio();
+audio.src="audio/tires.mp3";
