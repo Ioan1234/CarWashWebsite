@@ -33,3 +33,13 @@ var loader = function () {
 loader();
 const audio=new Audio();
 audio.src="audio/tires.mp3";
+
+var canvas = document.getElementById('canvas-gs');
+var ctx = canvas.getContext('2d');
+
+var image = new Image();
+image.src = 'images/canvas-image.jpg';
+ctx.filter = 'grayscale(1)';
+image.onload = function() {
+  ctx.drawImage(image, 0, 0);
+}

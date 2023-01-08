@@ -43,7 +43,7 @@
                                     </div>
                                     <div class="top-bar-text">
                                         <h3>Call Us</h3>
-                                        <p>+012 345 6789</p>
+                                        <p>0236-212-212</p>
                                     </div>
                                 </div>
                             </div>
@@ -54,7 +54,7 @@
                                     </div>
                                     <div class="top-bar-text">
                                         <h3>Email Us</h3>
-                                        <p>info@example.com</p>
+                                        <p>contact@washnow.com</p>
                                     </div>
                                 </div>
                             </div>
@@ -78,101 +78,34 @@
                     <a href="price.html" class="nav-item nav-link">Price</a>
                     <a href="available_locations.html" class="nav-item nav-link">Available locations</a>
                   </div>
-                    <a class="btn btn-custom" href="#">Reserve an hour</a>
+                  <a class="btn btn-custom" href="#" onclick="audio.play()">Reserve an hour</a>
                 </div>
               </nav>
             </div>
-            
-        </div>   
-        <div class="page-header">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <h2>Available locations</h2>
-                    </div>
-                    <div class="col-12">
-                        <a href="">Home</a>
-                        <a href="">Available locations</a>
-                    </div>
-                </div>
-            </div>
-        </div> 
+        </div>
+           
         <div class="location">
             <div class="container">
                 <div class="row">
-                        <div class="section-header text-center">
-                            <p>Washing Points</p>
-                            <h2>Car Washing & Care Points</h2>
-                        </div>
-                        <div class="mx-auto">
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="location-item">
-                                        <i class="fa fa-map-marker-alt"></i>
-                                        <div class="location-text">
-                                            <h3>Car Washing Point</h3>
-                                            <p>123 Street, New York, USA</p>
-                                            <p><strong>Call:</strong>+012 345 6789</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="location-item">
-                                        <i class="fa fa-map-marker-alt"></i>
-                                        <div class="location-text">
-                                            <h3>Car Washing Point</h3>
-                                            <p>123 Street, New York, USA</p>
-                                            <p><strong>Call:</strong>+012 345 6789</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="location-item">
-                                        <i class="fa fa-map-marker-alt"></i>
-                                        <div class="location-text">
-                                            <h3>Car Washing Point</h3>
-                                            <p>123 Street, New York, USA</p>
-                                            <p><strong>Call:</strong>+012 345 6789</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="location-item">
-                                        <i class="fa fa-map-marker-alt"></i>
-                                        <div class="location-text">
-                                            <h3>Car Washing Point</h3>
-                                            <p>123 Street, New York, USA</p>
-                                            <p><strong>Call:</strong>+012 345 6789</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="section-header text-center" style="margin: 0 auto">
+                        <h2>Car Washing & Care Points</h2>
+                        <br></br>
+                    </div>
                 </div>
             </div>
-            <div id="map"></div>
-            <script>
-              function initMap() {
-                var uluru = {lat: 28.501859, lng: 77.410320};
-                var map = new google.maps.Map(document.getElementById('map'), {
-                  zoom: 4,
-                  center: uluru
-                });
-                var marker = new google.maps.Marker({
-                  position: uluru,
-                  map: map
-                });
-              }
-            </script>
-            <script async defer
-            src= "https://maps.googleapis.com/maps/api/js?key=
-            AIzaSyDF5X_5k70PIwbjv-bPOr9aolP6IU2MZ1o&callback=initMap">
-            </script>
+            <div class="mapouter">
+                <div class="gmap_canvas">
+                    <iframe width="825" height="450" id="gmap_canvas" 
+                    src="https://www.google.com/maps/d/embed?mid=1fW0v53oT_C0yTTs55H--uaM5DGYzfJc&ehbc=2E312F" 
+                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                    </iframe>
+                </div>
+            </div>
             <div class="contact">
                 <div class="container-contact">
                     <div class="section-header text-center">
-                        <p>Get In Touch</p>
-                        <h2>Contact for any query</h2>
+                        <br></br>
+                        <h2>Contact us</h2>
                     </div>
                             <div class="contact-form">
                                 <form name="sentMessage" id="contactForm" novalidate="novalidate">
